@@ -18,7 +18,7 @@ pub mod hot_patched_app;
 /// Everything you need to use hotpatching
 pub mod prelude {
     pub use super::{
-        HotPatched, SimpleSubsecondPlugin,
+        HotPatched, HotPatchedAppExt, SimpleSubsecondPlugin,
         hot_patched_app::{HotPatchedAppExt as _, StartupRerunHotPatch},
     };
     pub use crate::migration::*;
